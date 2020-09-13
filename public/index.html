@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>WeatherHere App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+    
+  <!--for client side map-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+   <style>
+   	 #issMap{
+   	 	height: 300px;
+   	 }
+   </style>
+</head>
+<body>
+
+	
+
+	<h1>WeatherHere App</h1>
+	<a href="all.html">List</a> | <a href="index.html">Entry</a>
+	<p><b> Location:</b> Latitude: <span id="latitude"></span>&deg, Longitude:<span id="longitude"></span>&deg<br><br>
+	   
+       <script type="text/javascript" src="index.js"></script>
+	    
+       <b><h4 id="locName"></h4></b>
+       
+       <b><h2><span id="locTemp"></span>&deg C</h2></b>
+       
+       <span id="locMsg"></span><br>
+       (co) :<span id="co_index"> </span> µg/m³.
+       (so<sub>2</sub>) : <span id="so2_index"> </span> µg/m³.
+
+  </p>
+       <div id ="issMap"></div><br>
+       <button id="sub">Check In</button><br>
+</body>
+</html>
