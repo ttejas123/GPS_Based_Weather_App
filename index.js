@@ -7,7 +7,10 @@ const database = new Datastore({ filename: pathToData});
 database.loadDatabase();
 const app = express();
 require('dotenv').config();
-app.listen(4000, () => console.log("listening port 4000"));
+const port = process.env.PORT || 3000;
+app.listen(port, () =>{
+    console.log(`listening port ${port}`)
+});
 app.use(express.static('public'));  //host client side
 app.use(express.json({limit:'1mb'}));
 
