@@ -7,6 +7,6 @@
 <p>1. API KEYS from <b>openaq.org</b> & <b>openweathermap.org</b></p>
 <p>2. Nodejs, browser except IE</p>
 <br><br>
-<b style= "font-size: 20px;">Requirements</b><br>
-<p>1. API KEYS from <b>openaq.org</b> & <b>openweathermap.org</b></p>
-<p>2. Nodejs, browser except IE</p>
+<b style= "font-size: 20px;">How to Start</b><br><br>
+<p>1. Fill your <b>API KEYS</b> in there possitions in <b>index.js</b>(server side).</p>
+<p>2. Start server: <b>npm start</b> or <b>node index.js</b> </p>
