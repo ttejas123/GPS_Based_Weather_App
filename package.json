@@ -10,7 +10,7 @@
     "data",
     "selfie"
   ],
-  "author": "Tejas Thakare",
+  "author": "Rohan Nadekar",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
