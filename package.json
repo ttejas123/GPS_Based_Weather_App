@@ -1,7 +1,7 @@
 {
-  "name": "dataselfiapp",
+  "name": "weatherHere",
   "version": "1.0.0",
-  "description": "This is data selfie app",
+  "description": "This is weather_here app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
